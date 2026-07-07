@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "derp.jebcushions.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"CushionRendererMixin",
+		"CushionRenderStateMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

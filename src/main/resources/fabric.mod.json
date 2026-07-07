@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "jeb-cushions",
+	"version": "${version}",
+	"name": "Jeb Cushions",
+	"description": "Adds jeb_ rendering to cushions for all that rainbowy goodness",
+	"authors": [
+		"DerpDerpling"
+	],
+	"contact": {
+		"homepage": "https://github.com/DerpDerpling/jeb_-cushions",
+		"sources": "https://github.com/DerpDerpling/jeb_-cushions"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/jeb-cushions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"derp.jebcushions.JebCushions"
+		],
+		"client": [
+			"derp.jebcushions.client.JebCushionsClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "jeb-cushions.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.3-",
+		"java": ">=25"
+	}
+}
