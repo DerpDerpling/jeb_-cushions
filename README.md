@@ -1,9 +1,6 @@
-# Jeb Cushions
+This is a client sided mod that adds rendering for the jeb_ nametag whenever you rename the cushion in an anvil and place it down.
 
-## Setup
+It does not keep its name whenever you break it, so you will have to rename it afterwords if you pick it up again after placing it down
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+(someone mentioned it in a pheonixsc stream and i had to make it lol)
